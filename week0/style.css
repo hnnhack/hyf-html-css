@@ -1,0 +1,141 @@
+#header {
+  margin: 1px 1px 1px 1px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+
+#logo-img {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  z-index: 1;
+}
+
+#logo-h {
+  position: absolute;
+  top: 42px;
+  left: 42px;
+  z-index: 2;
+}
+
+#logo {
+  font-family: "Monotype Corsiva";
+  margin-left: 110px;
+  color: green;
+  
+}
+
+.menu {
+  text-align: center;
+}
+
+li.special{
+  display: inline;
+  list-style-type:none;
+  background: #D8FBE1;
+}
+
+.menu-tag {
+  border: 1px solid green;
+  margin: 1px 1px 1px 1px;
+  padding: 1px 10px 1px 10px;
+  
+}
+
+h1, h2 {
+  font-family: "Agency FB";
+}
+
+a:link {
+  color: green;
+  
+}
+
+li a:hover, p a:hover {
+  border-bottom: 2px solid blue;
+  border-top: 2px solid blue;
+  background: white;
+  color: red;
+  
+}
+
+.left {
+  text-align: left;
+  border: 1px solid green;
+  width: 100px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  background: #D8FBE1;
+}
+
+.right {
+  text-align: left;
+  border: 1px solid green;
+  width: 100px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  background: #D8FBE1;
+}
+
+.small {
+  width: 100px;
+}
+
+.medium {
+  width: 150px;
+}
+
+.big {
+  width: 250px;
+}
+
+.golden {
+  border: 8px groove gold;
+  padding: 2px 2px 2px 2px;
+}
+
+.silver {
+  border: 8px groove silver;
+  padding: 2px 2px 2px 2px;
+}
+
+.overflow {
+  position: absolute;
+  left: 300px;
+  width: 50%;
+  height: 330px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 1px 5px 0px 5px;
+            
+}
+
+.wiki {
+  background: #D8FBE1;
+  text-align: center;
+  clear: both;
+  padding: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+td.center {
+  font-style: italic;
+}
+
+p h1 {
+  color: green;
+}
+
+.bg {
+  background: #00F829;
+}
+
+p {
+  text-align: justify;
+}
